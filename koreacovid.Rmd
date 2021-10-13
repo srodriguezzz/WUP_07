@@ -80,5 +80,10 @@ fisher.test(table1)
 
 The p value of 0.001 is too low, therefore we reject the null hypothesis. THe death rate in Korea is dependent on sex. 
 
+The fisher exact test shows that men died at 2.3 times the rate than woman died. 
+
 ## Conclusions
+
+
+
 
