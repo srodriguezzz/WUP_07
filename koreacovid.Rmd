@@ -72,8 +72,13 @@ Very few people actually died of COVID-19, only 1.4% of Korean females died and 
 
 ## Inferential results 
 
+```{r}
+chisq.test(table1)
+chisqtestGC(table1)
+fisher.test(table1)
+```
 
-
+The p value of 0.001 is too low, therefore we reject the null hypothesis. THe death rate in Korea is dependent on sex. 
 
 ## Conclusions
 
